@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RSAssetLibrary",
+	"Description": "RSAssetLibrary",
+	"Category": "Other",
+	"CreatedBy": "Hunan MangoXR Tech Co,ltd ",
+	"CreatedByURL": "https://meta.mg.xyz/",
+	"DocsURL": "https://meta.mg.xyz/",
+	"FabURL" : "com.epicgames.launcher://ue/Fab/product/268bfa4e-a885-49e6-8d9f- 763b80dee1ca",
+	"MarketplaceURL": "",
+	"SupportURL": "https://meta.mg.xyz/",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UserSessionManager",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": ["Win64"]
+		},
+		{
+			"Name": "RSAssetLibrary",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": ["Win64"]
+		},
+		{
+			"Name": "RSpaceAssetLibApi",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": ["Win64"]
+		}
+	]
+}
